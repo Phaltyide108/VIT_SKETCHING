@@ -1,3 +1,5 @@
+
+### Note all the results are accurate but this is still in research phase so one can expects even better results than this ------.
 # VIT_SKETCHING
 This is Major project under Dr. Rachit Chhaya 
 # Vision Transformer with Sketching Techniques
@@ -27,7 +29,8 @@ An efficient implementation of Vision Transformer (ViT) using attention sketchin
 2. **Inference Mode**:
    - Uses pre-computed sketched weights
    - Significant speedup at test time
-   - Minimal accuracy drop
+   - accuracy increases with 50% sketching
+   - have also use learnable sketch which results in even higher accuracy when the Q and K is sketched to 33.33% 
 
 ## Implementation Details
 
